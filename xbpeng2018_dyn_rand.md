@@ -3,16 +3,25 @@
 
 Dynamics Randomization: Randomize the dynamic properties or the physics parameters of the simulators and train the networks to generate policies. The policies developed are well able to adapt to different dynamics than the dynamics that they were trained on. The intuition here is that by doing this, the policies can be generalized to dynamics of the real world. They obtain good results on the real hardware by just training the policies on simulation. The policies developed were for pushing objects on a table from random initial configurations to a target location.
 
-The objective function for the maximization is modified as expected value over the distribution of the dynamic properties. 
-$E_\mu(s) = $
 
-Has randomized dynamic properties: 
 
-Embeds the system identification directly into the value function and the policy as the internal memory.
+#### Key Points in the Paper:
 
-Has two neteowrks for: 
-1. Policy (Output is a 7-dimensional angles, which are provided as the ).
-2. Value function( ).
+1. Uses the recurrent model of the Deterministic Policy-Gradient method to optimize the policy to maximize over all the random dynamic properties of the simulated environments.
+2. Embeds the system identification directly into the value function and the internal memory. The Dynamics parameter is only used in value function and not the policy.
+3. Employs Hindight Experience Replay for exploration(it is an off-policy algorithm) and deals with the sparse rewards(no specified reward function is required to achieve the task).
+
+#### Network Architecture:
+
+1. Learning the Policy (Output is a 7-D Joint angles of the manipulator).
+2. Learning the Value function(Output is n continuous Real Space of 1-D ).
+Optimizer: ADAM with step size: 5
+
+#### Results:
+
+
+
+
 
 
 
