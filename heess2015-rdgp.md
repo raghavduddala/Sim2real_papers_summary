@@ -5,10 +5,10 @@ Deterministic Policy Gradient Method with recurrent neural networks for solving 
 DPG - Deterministic Policy Gradient:- Off-Poicy Algorithm
 SVG- Stochastic Value Gradient:- On-policy Algorithm - optimizies a stochastic policy.
 
-s- State
-a - action
-Q - Action Value
-mu - Policy
+s- State,
+a - action,
+Q - Action Value,
+mu - Policy.
 #### Key Points in the Paper:
 1. The objective function is over the discounted state visitation distribution.The Q(w)(critic) is learned through a function approxmiator such as a NN(in this case NN with SLTM Blocks).
 State Visitation Distrbution : Discounted sum of probabilities of visting a given state under a given policy.
