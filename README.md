@@ -7,6 +7,14 @@ The order of the papers is as follows:
 2. Memory based Control with Recurrent Neural Networks - Nicolas Heess, Jonathan J Hunt, Timothy P Lillicrap, and David Silver.
 3. In-hand object dynamics inference using Tactile Fingertips - Balakumar Sundaralingam , Tucker Hermans.
 4. Closing the Sim-to-Real Loop:Adapting Simulation Randomization with Real World Experience - Yevgen Chebotar, Ankur Handa, Viktor Makoviychuk, Miles Macklin, Jan Issac, Nathan Ratliff, Dieter Fox.
-5. TuneNet: One-Shot Residual Tuning for System Identification and Sim-to-Real Robot Task Transfer - Adam Allevato, Elaine Schaertl Short, Mitch Pryor, Andrea Thomaz
+5. TuneNet: One-Shot Residual Tuning for System Identification and Sim-to-Real Robot Task Transfer - Adam Allevato, Elaine Schaertl Short, Mitch Pryor, Andrea Thomaz(2019)
+6. Sim-to-Real: Learning Agile Locomotion For Quadruped Robots - Jie Tan, Tingnan Zhang, Erwin Coumans, Atil Iscen, Yunfei Bai, Danijar Hafner, Steven Bohez, and Vincent Vanhoucke(2018)
 
+Few good papers on Online Simulation Parameter Estimation using Approximate Bayesian Computation:
 
+1. BayesSim: adaptive domain randomization via probabilistic inference for robotics simulators - Fabio Ramos, Rafael Carvalhaes Possas, Dieter Fox(2019)
+2. Online BayesSim for Combined Simulator Parameter Inference and Policy Improvement - Rafael Possas, Lucas Barcelos, Rafael Oliveira, Dieter Fox, Fabio Ramos
+
+Papers on data driven object dynamics models:
+1. A Probabilistic Data-Driven Model for Planar Pushing - Maria Bauza, Alberto Rodriguez(2017)
+2. A Fast Stochastic Contact Model for Planar Pushing and Grasping: Theory and Experimental Validation - Jiaji Zhou, J. Andrew Bagnell and Matthew T. Mason (2017)
