@@ -10,11 +10,36 @@ The order of the papers is as follows:
 5. TuneNet: One-Shot Residual Tuning for System Identification and Sim-to-Real Robot Task Transfer - Adam Allevato, Elaine Schaertl Short, Mitch Pryor, Andrea Thomaz(2019)
 6. Sim-to-Real: Learning Agile Locomotion For Quadruped Robots - Jie Tan, Tingnan Zhang, Erwin Coumans, Atil Iscen, Yunfei Bai, Danijar Hafner, Steven Bohez, and Vincent Vanhoucke(2018)
 
-Few good papers on Online Simulation Parameter Estimation using Approximate Bayesian Computation:
+
+
+#### Few good papers on Online Simulation Parameter Estimation using Approximate Bayesian Computation:
 
 1. BayesSim: adaptive domain randomization via probabilistic inference for robotics simulators - Fabio Ramos, Rafael Carvalhaes Possas, Dieter Fox(2019)
 2. Online BayesSim for Combined Simulator Parameter Inference and Policy Improvement - Rafael Possas, Lucas Barcelos, Rafael Oliveira, Dieter Fox, Fabio Ramos
 
-Papers on data driven object dynamics models:
+
+
+#### Papers on data driven object dynamics models:
 1. A Probabilistic Data-Driven Model for Planar Pushing - Maria Bauza, Alberto Rodriguez(2017)
 2. A Fast Stochastic Contact Model for Planar Pushing and Grasping: Theory and Experimental Validation - Jiaji Zhou, J. Andrew Bagnell and Matthew T. Mason (2017)
+
+
+
+#### Papers on Important Parameter Identification for tuning in Sim2real:
+1. Traversing the Reality Gap via Simulator Tuning - Jack Collins, Ross Brown, Jurgen Leitner, and David Howard (2020)
+https://arxiv.org/pdf/2003.01369.pdf
+
+2. How to pick the domain randomization parameters for sim-to-real transfer of reinforcement learning policies? - Quan Vuong, Sharad Vikram, Hao Su, Sicun Gao, Henrik I. Christensen (2019)
+https://arxiv.org/pdf/1903.11774.pdf
+
+
+
+#### Paper on Robot Learning for Manipulation:
+1. A Review of Robot Learning for Manipulation: Challenges, Representations, and Algorithms - Oliver Kroemer, Scott Niekum, George Konidaris (2019)
+https://arxiv.org/pdf/1907.03146.pdf
+
+
+
+
+
+
